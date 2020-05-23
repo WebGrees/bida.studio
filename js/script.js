@@ -17,9 +17,10 @@ $('.dropdown').click(function () {
 
 // https://stackoverflow.com/questions/13980448/jquery-focusout-click-conflict
 $('.dropdown').focusout(function () {
+    var that = $(this);
     window.setTimeout(function () {
-        $(this).removeClass('active');
-        $(this).find('.dropdown-menu').slideUp(300);
+        that.removeClass('active');
+        that.find('.dropdown-menu').slideUp(300);
     }, 100)
 });
 

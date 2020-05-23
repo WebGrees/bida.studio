@@ -165,15 +165,16 @@ body {
 } 
 
 .container {
-  width: 500px;
   margin: 180px auto 0;
   text-align: center;
   position: absolute;
   top: 0;
   left: 0;
-  width:100%;
   display: flex;
-  justify-content: center;
+	width: 100%;
+	height: calc(100% - 180px);
+	justify-content: center;
+	align-items: center;
   z-index: 3;
 }
 
@@ -224,11 +225,11 @@ body {
     transform: rotate(-90deg);
 }
 .dropdown .dropdown-menu {
-    position: absolute;
+		position: absolute;
+		bottom: 40px;
     width: 120%;
     left: -13%;
     border: 7px solid #ffcc00;
-    border-padding: 100px;
     margin-top: 10px;
     box-shadow: 0 1px 2px rgb(204, 204, 204);
     overflow: hidden;
@@ -268,7 +269,6 @@ a {
 .dropdown-menu-photo {
 	width: 47px;
 	height: 47px;
-	position: ;
 	margin: -9px 20px -13px 0;
 	border: 2px solid #ffcc00;
  /* Обтекание картинки по левому краю */
