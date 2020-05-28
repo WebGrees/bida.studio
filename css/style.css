@@ -39,10 +39,10 @@ body {
 }
 
 .header__logo {
-	padding:40px;
+	padding:30px;
 	margin: 0;
 	display: block;
-	width: 150px;
+	width: 140px;
 }
 .header__menu-wrapper {
 	position: relative;
@@ -89,8 +89,8 @@ body {
 	padding: 0 10px 0 10px;
 	transition: .3s;
 	color: #ffcc00;
-    	background-color: #000000;
-    	opacity: 100%;
+    background-color: #000000;
+    opacity: 100%;
 }
 
 .header__menu-btn {
@@ -163,7 +163,7 @@ body {
 	height: calc(100% - 180px - 70px);
 	justify-content: center;
 	align-items: flex-end;
-  	z-index: 3;
+  	z-index: 2;
 }
 
 /*Styling Selectbox*/
@@ -186,75 +186,75 @@ body {
 
 .dropdown .select {
 	cursor: pointer;
-    	display: block;
-    	padding: 10px
+    display: block;
+    padding: 10px;
 }
 
 .dropdown .select > i {
 	font-size: 13px;
-    	cursor: pointer;
-    	transition: all .3s ease-in-out;
-    	float: right;
-    	line-height: 20px
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
 }
 
 .dropdown:hover {
   	transition: .3s;
 	color: #000000;
-    	background-color: #ffcc00;  
+    background-color: #ffcc00;  
 }
 
 .dropdown:active {
-    	background-color: #ffcc00;
+    background-color: #ffcc00;
 }
 
 .dropdown.active:hover,
 .dropdown.active {
 	color: #000000;
-    	background-color: #ffcc00;
+    background-color: #ffcc00;
 }
 
 .dropdown.active .select > i {
-    	transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 .dropdown .dropdown-menu {
 	position: absolute;
 	bottom: 40px;
-    	width: 120%;
-    	left: -13%;
-    	border: 7px solid #ffcc00;
-    	margin-top: 10px;
-    	box-shadow: 0 1px 2px rgb(204, 204, 204);
-    	overflow: hidden;
-    	display: none;  
-    	overflow-y: auto;
-    	z-index: 9;   
-    	text-align: left;
+    width: 120%;
+    left: -13%;
+    border: 7px solid #ffcc00;
+    margin-top: 10px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    overflow: hidden;
+    display: none;  
+    overflow-y: auto;
+    z-index: 9;   
+    text-align: left;
 }
 
 .dropdown .dropdown-menu li {
-    	background-color: #000000;
-    	color: #ffcc00;
-    	opacity: 60%;  
-    	padding: 10px;
-    	margin: 10px 20px;
-    	transition: all .2s ease-in-out;
-    	cursor: pointer
+    background-color: #000000;
+    color: #ffcc00;
+    opacity: 60%;  
+    padding: 10px;
+    margin: 10px 20px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
 } 
 
 .dropdown .dropdown-menu {
-    	padding: 0;
-    	list-style: none
+    padding: 0;
+    list-style: none
 }
 
 .dropdown .dropdown-menu li:hover {
-    	background-color: #ffcc00;
-    	color: #000000;
-    	opacity: 100%;
+    background-color: #ffcc00;
+    color: #000000;
+    opacity: 100%;
 }
 .dropdown .dropdown-menu li:active {
-    	background-color: #e2e2e2
+    background-color: #e2e2e2
 }
 
 a {
@@ -278,7 +278,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	background-image: url(../images/footer.png);
-	background-size: 100% auto;
+	background-size: cover;
 	height: fit-content;
 	z-index: 3;
 }
@@ -291,3 +291,24 @@ footer {
   	color: #000000;	
   	background-color: rgba(255, 204, 0, .7);
   	font-weight: 600;
+ }
+
+ @media (max-width: 1229px) {
+	body{
+		background-image: url(../images/wall-3.png);
+		background-size: 100% auto;
+	}
+
+	.bgvideo__media {	
+    width: auto;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    margin: auto;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+	}
+}
+
