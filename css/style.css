@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: Tahoma, sans-serif;
-	background-image: url(../images/wall.png);
+	background-image: url(../images/wall.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	z-index: 2;
@@ -114,7 +114,7 @@ body {
 	margin-left: -34px;
 	width: 67px;
 	height: 12px;
-	background-image: url(../images/btn.png);
+	background-image: url(../images/btn.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 } 
@@ -140,14 +140,14 @@ body {
 
 .header__menu-btn_active span:before {
 	transform: rotate(45deg);
-	background-image: url(../images/btn-d.png);
+	background-image: url(../images/btn-d.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 } 
 
 .header__menu-btn_active span:after {
 	transform: rotate(-45deg);
-	background-image: url(../images/btn-d.png);
+	background-image: url(../images/btn-d.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 } 
@@ -295,7 +295,26 @@ footer {
 
  @media (max-width: 1229px) {
 	body{
-		background-image: url(../images/wall-3.png);
+		background-image: url(../images/wall-3.jpg);
+		background-size: 100% auto;
+	}
+
+	.bgvideo__media {	
+    width: auto;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    margin: auto;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+	}
+}
+
+@media (max-width: 800px) {
+	body{
+		background-image: url(../images/wall-3.jpg);
 		background-size: 100% auto;
 	}
 
