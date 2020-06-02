@@ -361,4 +361,15 @@ footer {
 	.footer__socmedia_item {
 		margin: 25px;
 	}
+
+	.dropdown-menu-photo {
+    width: 35px;
+    height: 35px;
+	}
+
+	.container {
+    margin: 145px auto 35px;
+    height: calc(100% - 145px - 35px);
+	}
 }
+
