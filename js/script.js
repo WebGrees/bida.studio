@@ -1,11 +1,12 @@
 $('.header__menu-btn').on('click', function(e) {
-	e.preventDefault();
-	$('.header__menu').toggleClass('menu_active');
-	})
+    e.preventDefault();
+    $('.header__menu').toggleClass('menu_active');
+    $('.video-content').toggleClass('video-content_active');
+    })
 
 $('.header__menu-btn').on('click', function(e) {
-	e.preventDefault();
-	$(this).toggleClass('header__menu-btn_active')
+    e.preventDefault();
+    $(this).toggleClass('header__menu-btn_active')
 });
 
 /*Dropdown Menu*/
