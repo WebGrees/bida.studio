@@ -1,6 +1,11 @@
+@font-face {
+	font-family: 'space-age';
+	src:url(../fonts/space-age.otf);
+}
+
 body {
 	margin: 0; 
-	font-family: 'Space Age', arial, Tahoma, sans-serif;
+	font-family: space-age;
 	background-image: url(../images/wall.jpg);
 	background-repeat: repeat;
 	background-size: 100% auto;
