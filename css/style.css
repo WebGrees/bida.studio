@@ -76,7 +76,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	background-color: #ffcc00;
-	opacity: 50%;
+	opacity: 80%;
 	transition: 0.5s;
 	transform: translateX(100%);
 }
