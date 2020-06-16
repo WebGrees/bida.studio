@@ -2,6 +2,7 @@ $('.header__menu-btn').on('click', function(e) {
     e.preventDefault();
     $('.header__menu').toggleClass('menu_active');
     $('.video-content').toggleClass('video-content_active');
+    $('.contacts-content').toggleClass('contacts-content_active');
     })
 
 $('.header__menu-btn').on('click', function(e) {
