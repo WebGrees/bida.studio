@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'space-age';
+    src:url(../fonts/space-age.otf);
+}
+
 body {
-    font-family: Tahoma, sans-serif;
+    font-family: space-age; Tahoma, sans-serif;
     background-image: url(../images/wall-3.jpg);
     background-repeat: repeat;
 }
