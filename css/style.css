@@ -380,6 +380,10 @@ footer {
 	.bgvideo__media {	
 		display: none;
 	}
+
+	.header__menulist {
+    	margin-top: -130px;
+    }
 }
 
 @media (max-width: 1069px) {
