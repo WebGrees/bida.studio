@@ -369,6 +369,19 @@ footer {
 	}
 }
 
+ @media (max-width: 735px) {
+	body{
+		background-image: url(../images/main-page-1.jpg);
+    	background-size: 100%;
+    	background-position: top;
+    	background-repeat: inherit;
+	}
+
+	.bgvideo__media {	
+		display: none;
+	}
+}
+
 @media (max-width: 1069px) {
 	.header__menu {
 		width: 25%;
