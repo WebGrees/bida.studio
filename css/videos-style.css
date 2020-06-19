@@ -181,3 +181,73 @@ footer {
   	background-color: rgba(255, 204, 0, .7);
   	font-weight: 600;
  }
+
+ 
+@media (max-width: 1069px) {
+    .header__menu {
+        width: 25%;
+    }
+
+    .header__menulist a {
+        font-size: 25px;
+    }
+
+    .header__menu-btn {
+        width: 70px;
+    }
+}
+
+@media (max-width: 854px) {
+    .header__menulist a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 735px) {
+    .header__menu {
+        width: 100%;
+        opacity: 95%;
+        height: 120%;
+    }   
+
+    .header__menulist a {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 465px) {
+    .footer__socmedia_item {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 763px) {
+    .header-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 542px) {
+    .header-title {
+        font-size: 15px;
+    }
+
+    .header__logo {
+        width: 80px;
+        padding: 22px;
+    }
+
+    .header__menu-btn {
+        height: 79px;
+    }
+}
+
+@media (max-width: 345px) {
+    .header-title {
+        font-size: 10px;
+    }
+    .footer__socmedia_item {
+        margin: 5px;
+        font-size: 20px;
+    }
+}
