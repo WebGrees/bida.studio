@@ -149,11 +149,15 @@ body {
 .video-content {
     transition: 0.5s;
     text-align: center;
-    margin: 170px auto 50px;
+    margin: 0 auto 50px;
 }
 
 .video-content_active {
     transform: translateX(-13%);
+}
+
+.video-content-item {
+    width: auto;
 }
 
 footer {
@@ -180,6 +184,7 @@ footer {
     background-color: rgba(255, 204, 0, .7);
     font-weight: 600;
  }
+
 /*
 iframe{
     margin: 20px;
@@ -188,13 +193,13 @@ iframe{
     height: 500px;
 }*/
 
-iframe {
+/*iframe {
     margin: 20px;
     max-width: 700px;
     width: auto;
     height: auto;
 }
-
+*/
 @media (max-width: 1069px) {
     .header__menu {
         width: 25%;
@@ -264,12 +269,3 @@ iframe {
     }
 }
 
-.video-content {
-    transition: 0.5s;
-    text-align: center;
-    margin: 170px auto 50px;
-}
-
-.video-content_active {
-    transform: translateX(-13%);
-}
