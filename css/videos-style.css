@@ -180,21 +180,21 @@ footer {
     background-color: rgba(255, 204, 0, .7);
     font-weight: 600;
  }
-
+/*
 iframe{
     margin: 20px;
     max-width: 795px;
     width: -webkit-fill-available;
     height: 500px;
-}
+}*/
 
-/*iframe {
+iframe {
     margin: 20px;
     max-width: 700px;
     width: auto;
     height: auto;
 }
-*/
+
 @media (max-width: 1069px) {
     .header__menu {
         width: 25%;
