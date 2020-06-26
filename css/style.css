@@ -57,7 +57,7 @@ body {
     color: #ffcc00;
     font-size: 30px;
     font-weight: 600;
-    margin: 34px auto;
+    margin: 53px auto;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -109,8 +109,8 @@ body {
 	padding: 0 10px 0 10px;
 	transition: .3s;
 	color: #ffcc00;
-    	background-color: #000000;
-    	opacity: 100%;
+    background-color: #000000;
+    opacity: 100%;
 }
 
 .header__menu-btn {
@@ -206,22 +206,22 @@ body {
 
 .dropdown .select {
 	cursor: pointer;
-    	display: block;
-    	padding: 10px;
+    display: block;
+    padding: 10px;
 }
 
 .dropdown .select > i {
 	font-size: 13px;
-    	cursor: pointer;
-    	transition: all .3s ease-in-out;
-    	float: right;
-    	line-height: 20px
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
 }
 
 .dropdown:hover {
   	transition: .3s;
 	color: #000000;
-    	background-color: #ffcc00;  
+    background-color: #ffcc00;  
 }
 
 .dropdown:active {
@@ -343,7 +343,7 @@ a {
 }
 
 .neon-block-img {
-    width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -455,7 +455,7 @@ footer {
     	background-repeat: inherit;
 	}
 
-		.main-page-body {
+	.main-page-body {
 		background-image: url(../images/main-page-1.jpg);
 	}
 
@@ -554,6 +554,10 @@ footer {
 	.header__menu-btn {
 		height: 79px;
 	}
+
+	.header-title {
+    	margin: 31px auto;
+    }
 }
 
 @media (max-width: 345px) {
@@ -592,8 +596,3 @@ footer {
 	}
 	
 }
-
-/*.header	{
-	background-image: url(../images/wall-3.jpg);
-	position: fixed;
-}*/
