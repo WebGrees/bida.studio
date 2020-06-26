@@ -587,8 +587,8 @@ footer {
 
 @media (max-width: 545px) {
 	.philosophy-content{
-		margin: 8px;
-		font-size: 17px;
+		margin: 8px 8px 20px;
+		font-size: 18px;
 	}
 	
 }
