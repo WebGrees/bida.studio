@@ -473,6 +473,7 @@ footer {
 	 
     .neon-block-img {
     	height: 256px;
+  	}
 }
 
 @media (max-width: 1069px) {
