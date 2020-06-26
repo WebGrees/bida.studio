@@ -3,13 +3,17 @@
 	src:url(../fonts/space-age.otf);
 }
 
+.main-page-body {
+	background-image: url(../images/wall.jpg);
+}
+
 body {
 	margin: 0; 
 	font-family: space-age; Tahoma, sans-serif;
-	background-image: url(../images/wall.jpg);
+	background-image: url(../images/wall-3.jpg);
 	background-repeat: repeat;
 	background-size: 100% auto;
-	z-index: 2;
+	/*z-index: 2;*/
 }
 
 .intro {
@@ -33,12 +37,10 @@ body {
 }
 
 .header {
-	position: absolute;
 	z-index: 3;
 	top: 0;
 	left: 0;
 	width:100%;
-	z-index: 3;
 	display: flex;
 	justify-content: space-between;
 }
@@ -76,9 +78,10 @@ body {
 	align-items: center;
 	justify-content: center;
 	background-color: #ffcc00;
-	opacity: 80%;
+	opacity: 90%;
 	transition: 0.5s;
 	transform: translateX(100%);
+	z-index: 2;
 }
 
 .menu_active {
@@ -325,8 +328,79 @@ a {
     background-color: #ffcc00;
 }
 
+/*Contacts*/
+.contacts-content {
+    transition: 0.5s;
+}
+
+.contacts-content_active {
+    transform: translateX(-13%);
+}
+
+.neon-block {
+    display: flex;
+    justify-content: center;
+}
+
+.neon-block-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+.contacts, .contacts-phone {
+    text-align: center;
+    margin:20px auto;
+    color: #ffcc00;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contacts-phone {
+    display: contents;
+    text-decoration: none;
+}
+
+.google-maps{
+    margin: 20px;
+    max-width: 795px;
+    width: -webkit-fill-available;
+    height: 500px;
+}
+
+/*Video*/
+.video-content {
+    transition: 0.5s;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.video-content_active {
+    transform: translateX(-13%);
+}
+
+.video-content-item {
+    width: auto;
+}
+
+/*Philosophy*/
+.philosophy-content {
+	transition: 0.5s;
+    text-align: center;
+    margin:20px 70px;
+    color: #ffcc00;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.philosophy-content_active {
+    transform: translateX(-13%);
+}
+
 footer {
-  	position: absolute;
+  	position: fixed;
   	bottom: 0;
   	left: 0;
 	display: flex;
@@ -356,6 +430,10 @@ footer {
 		background-size: 100% auto;
 	}
 
+	.main-page-body {
+		background-image: url(../images/wall-3.jpg);
+	}
+
 	.bgvideo__media {	
     	width: auto;
     	height: 100vh;
@@ -377,12 +455,20 @@ footer {
     	background-repeat: inherit;
 	}
 
+		.main-page-body {
+		background-image: url(../images/main-page-1.jpg);
+	}
+
 	.bgvideo__media {	
 		display: none;
 	}
 
 	.header__menulist {
     	margin-top: -130px;
+    }
+
+    .philosophy-page-body {
+    	background-image: url(../images/wall-3.jpg);
     }
 }
 
@@ -423,7 +509,6 @@ footer {
 	.dropdown-menu {
 		font-size: 21px;
 	}
-
 }
 
 @media (max-width: 735px) {
@@ -448,11 +533,6 @@ footer {
     	width: 35px;
     	height: 35px;
 	}
-
-	/*.container {
-    	margin: 145px auto 35px;
-    	height: calc(100% - 145px - 35px);
-	}*/
 }
 
 @media (max-width: 763px) {
@@ -476,12 +556,6 @@ footer {
 	}
 }
 
-/*@media (max-width: 547px) {
-	.header-title {
-	   display: none;
-	}
-}*/
-
 @media (max-width: 345px) {
 	.header-title {
 	    font-size: 10px;
@@ -503,3 +577,23 @@ footer {
 		display: flex;
 	}
 }
+
+@media (max-width: 695px) {
+	.philosophy-content{
+		margin: 10px;
+		font-size: 25px;
+	}	
+}
+
+@media (max-width: 545px) {
+	.philosophy-content{
+		margin: 8px;
+		font-size: 17px;
+	}
+	
+}
+
+/*.header	{
+	background-image: url(../images/wall-3.jpg);
+	position: fixed;
+}*/

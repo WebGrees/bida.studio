@@ -3,6 +3,7 @@ $('.header__menu-btn').on('click', function(e) {
     $('.header__menu').toggleClass('menu_active');
     $('.video-content').toggleClass('video-content_active');
     $('.contacts-content').toggleClass('contacts-content_active');
+    $('.philosophy-content').toggleClass('philosophy-content_active');
     })
 
 $('.header__menu-btn').on('click', function(e) {
