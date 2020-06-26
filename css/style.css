@@ -470,6 +470,9 @@ footer {
     .philosophy-page-body {
     	background-image: url(../images/wall-3.jpg);
     }
+	 
+    .neon-block-img {
+    	height: 256px;
 }
 
 @media (max-width: 1069px) {
