@@ -344,6 +344,7 @@ a {
 
 .neon-block-img {
     max-width: 90%;
+	width: -webkit-fill-available;
     height: auto;
     display: block;
     margin: 0 auto;
