@@ -57,7 +57,7 @@ body {
     color: #ffcc00;
     font-size: 30px;
     font-weight: 600;
-    margin: 53px auto;
+    margin: 34px auto;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -344,7 +344,7 @@ a {
 
 .neon-block-img {
     max-width: 100%;
-   /* height: auto;*/
+    /*height: auto;*/
     display: block;
     margin: 0 auto;
     border: none;
