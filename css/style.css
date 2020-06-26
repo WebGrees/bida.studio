@@ -50,7 +50,7 @@ body {
 	margin: 0;
 	display: block;
 	width: 140px;
-	position: fixed;
+	position: absolute;
 }
 
 .header-title {
@@ -117,7 +117,7 @@ body {
 	width: 150px;
 	height: 150px;
 	display: block;
-	position: fixed;
+	position: absolute;
 	right: 15px;
 	top: 15px;
 	z-index: 3;
