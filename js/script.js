@@ -32,3 +32,47 @@ $('.dropdown .dropdown-menu li').click(function () {
     $(this).parents('.dropdown').find('input').attr('value', $(this).attr('id'));
 });
 /*End Dropdown Menu*/
+
+/*Translate*/
+var arrLang = {
+    'en': {
+        'schedule': 'Mon - Sat',
+        'philosophy': 'Philosophy',
+        'team': 'Team',   
+        'photos': 'Photos',
+        'videos': 'Videos',
+        'contacts': 'Contacts',
+        'appointment': 'Appointment',
+        'ask': 'Ask',
+    },
+    'ru': {
+        'schedule': 'Пн - Сб',
+        'philosophy': 'Философия',
+        'team': 'Команда',   
+        'photos': 'Фото',
+        'videos': 'Видео',
+        'contacts': 'Контакты',
+        'appointment': 'Записаться',
+        'ask': 'Спросить',
+    },
+    'uk': {
+        'schedule': 'Пн - Сб',
+        'philosophy': 'Фiлософiя',
+        'team': 'Команда',   
+        'photos': 'Фото',
+        'videos': 'Вiдео',
+        'contacts': 'Контакти',
+        'appointment': 'Записатися',
+        'ask': 'Запитати',
+    }
+}
+
+    $(function() {
+        $('.translate-btn').click(function() {
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function(index, item) {
+            $(this).text(arrLang[lang][$(this).attr('key')]);
+        });
+    });
+});
