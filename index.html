@@ -23,7 +23,14 @@
 				<a href="index.html"><img src="images/logo.png" alt="BIDA logo" class="header__logo"></a>
 			</div>
 			<div class="header-title">
-				Пн - Сб <br> 12.00 - 00.00
+				<span class="lang" key="schedule">Пн - Сб</span> <br> 12.00 - 00.00 <br>
+			</div>
+			<div class="header-title-flags">
+
+				<li class="header-title-item-lang header-title-item-lang-en"><button id="en" class="translate-btn"><img class="flag" src="images/en-flag.jpg" alt="English flag"></button></li>
+				<li class="header-title-item-lang header-title-item-lang-ru"><button id="ru" class="translate-btn"><img class="flag" src="images/ru-flag.jpg" alt="Russian flag"></button></li>
+				<li class="header-title-item-lang header-title-item-lang-uk"><button id="uk" class="translate-btn"><img class="flag" src="images/uk-flag.jpg" alt="Ukrainian flag"></button></li>
+
 			</div>
 			<a href="" class="header__menu-btn">
 				<span class="header__menu-btn_style"></span>
@@ -31,11 +38,11 @@
 			<div class="header__menu-wrapper">
 				<div class="header__menu">
 					<nav class="header__menulist">
-						<a href="philosophy.html" target="blank" class="header__menulist_item">Философия</a>
-						<a href="" class="header__menulist_item">Команда</a>
-						<a href="" class="header__menulist_item">Фото</a>
-						<a href="videos.html" target="blank" class="header__menulist_item">Видео</a>
-						<a href="contacts.html" target="blank" class="header__menulist_item">Контакты</a>
+						<a href="philosophy.html" target="blank" class="header__menulist_item lang" key="philosophy">Философия</a>
+						<a href="" class="header__menulist_item lang" key="team">Команда</a>
+						<a href="" class="header__menulist_item lang" key="photos">Фото</a>
+						<a href="videos.html" target="blank" class="header__menulist_item lang" key="videos">Видео</a>
+						<a href="contacts.html" target="blank" class="header__menulist_item lang" key="contacts">Контакты</a>
 					</nav>
 				</div>
 			</div>
@@ -43,7 +50,7 @@
 		<div class="container">
       		<div class="dropdown">
         		<div class="select">
-	          		<span>Записаться</span>
+	          		<span class="lang" key="appointment">Записаться</span>
 	        	</div>
 	        	<input type="hidden">
 	        	<ul class="dropdown-menu">
@@ -57,7 +64,7 @@
       		</div>
 		</div>
 		<div class="select-btn">
-			<div class="select-btn-ask">
+			<div class="select-btn-ask lang" key="ask">
 	        	<a href="tel:+38 095 001 64 62" class="select-btn-ask-link"><span>Спросить</span></a>
 	    	</div>
 	    </div>
