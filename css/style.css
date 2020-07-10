@@ -59,8 +59,44 @@ body {
     font-weight: 600;
     margin: 53px auto;
     text-align: center;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
+}
+
+.header-title-flags {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;;
+}
+
+
+.header-title-item-lang {
+	display: inline;
+}
+
+.flag {
+	width: 40px;
+	height: 23px;
+}
+
+.translate-btn	{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+	    color: #ffcc00;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.translate-btn:hover{
+    transform: scale(1.12);
+    animation-timing-function: cubic-bezier(.075,.82,.165,1);
+    outline: none;
 }
 
 .header__menu-wrapper {
@@ -343,8 +379,8 @@ a {
 }
 
 .neon-block-img {
-    max-width: 100%;
-    height: auto;
+    max-width: 90%;
+    height: 100;
     display: block;
     margin: 0 auto;
     border: none;
@@ -470,8 +506,8 @@ footer {
     .philosophy-page-body {
     	background-image: url(../images/wall-3.jpg);
     }
-	 
-    .neon-block-img {
+	
+	.neon-block-img {
     	height: 256px;
   	}
 }
